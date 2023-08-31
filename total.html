@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html dir='rtl' lang="ar">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>الادارة المركزية للرعاية الحرجة </title>
+        <link rel="stylesheet" href="css/normalize.css" />
+        <link rel="shortcut icon" href="img/نسر_الجمهورية-removebg-preview.ico" type="image/x-icon">
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="css.css" />
+
+
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="css/all.min.css" />
+        <!-- Google Fonts --> 
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&#038;display=swap" rel="stylesheet" />
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+      </head>
+      <body>
+        <!-- Sta rt Header -->
+        <div class="header" id="header">
+          <div class="container">
+            <a href="index.html" class="logo">ادارة التقييم والمتابعة</a>
+            <img src="img/لوجو_الإدارة-removebg-preview.png" alt="">
+            </div>
+        </div>
+        <div class="header" id="header">
+              <ul class="main-nav">
+                <li><a href="total.html">اجمالي طلبات ارضاء المواطنين </a></li>
+                <li><a href="follow.html">استعلام طلبات ارضاء المواطنين </a></li>
+                <li><a href="sheet.html">تقييم موظفي المشروع</a></li>
+                <li><a href="mror.html">مرور الشبكة الوطنية</a></li>
+
+                </ul>
+        </div>
+      </div>
+
+        <div class="container1">
+          <div class="total">
+            <div class="header" id="heeds">
+            </div>
+            <div class="buttons">
+              <button class="btns" id="all">اجمالي حالات </button>
+              <button class="btns">مشاكل مالية </button>
+              <button class="btns">حالات وفاة </button>
+              <button class="btns">اغلاق خاطئ للحالة</button>
+              <button class="btns">سوء معاملة</button>
+              <button class="btns">بلا شكوي</button>
+              <button class="btns">اهمال طبي</button>
+
+            </div>
+            <!-- <label for="number">رقم الطلب</label>
+            <input type="text" id="number" name="number" maxlength="7" value=""> 
+            <div class="serch">
+              <button type="submit" class="button" id="mainbot"> بحث  <i class="fas fa-search"></i>
+                </button> -->
+            </div>
+          <div class="table">
+            <table id="myTable" cellpadding="2" cellspacing="2" border="1" onclick="tester()">
+              <thead class="thead-dark">
+                <tr class="tr">
+                  <th scope="col">الكود</th>
+                  <th scope="col">الاسم</th>
+                  <th scope="col">رقم الهاتف</th>
+                  <th scope="col">سبب الغلق</th>
+                  <th scope="col">المتابعة</th>
+                  <th scope="col">نوع الشكوي</th>
+
+
+  
+                </tr>
+              </thead>
+            </table>
+  
+          </div>
+        </div>
+
+          <!-- نوع المشكلة 
+          1 مشاكل مالية 
+          2 حالات وفاة 
+          3 اغلاق خاطئ للحالة
+          4 سوء معاملة 
+          5 بلا شكوي 
+          6 اهمال طبي  -->
+          
+          <!-- <div class="section2">
+            <div id="example-table"></div>              
+            </section>
+
+            <label for="name">الاسم</label>
+            <textarea spellcheck="false" id="name" readonly required></textarea>
+            <label for="phone">رقم الهاتف</label >  
+              <textarea spellcheck="false"   id="phone"  readonly required></textarea>
+              
+
+          </div>
+          <div class="section2">
+      
+              <label for="resone">سبب الغلق</label >
+                <textarea spellcheck="false"   id="resone" readonly required></textarea>
+                <label for="state">متابعه الحالة</label> 
+                <textarea spellcheck="false"   id="state" readonly required></textarea>
+
+          </div> -->
+
+        <footer>
+          <div class="copyright">created by <span>hassan samhan</span> </div>
+        </footer>
+
+        <script type='module' src="scripts/total-script.js"></script>
+
+      
+            <!-- <ul class="main-nav">
+              <li><a href="#articles">Articles</a></li>
+              <li><a href="#gallery">Gallery</a></li>
+              <li><a href="#features">Features</a></li>
+              <li> <a href="#">Other Links</a></li> -->
+</body>
+</html>
