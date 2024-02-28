@@ -1,0 +1,83 @@
+:root{
+    --maincolor:#2373b3;
+    --submaincolor:#2373b3a6; 
+
+}
+body{
+    font-family: "Cairo", sans-serif;
+}
+.header .main-nav li a {
+    text-decoration: none !important;
+}
+.bayan-day{
+    background-color: #2373b3;
+    text-align: center;
+    width: 100%;
+}
+.bayan-text h2 {
+color: white;
+font-family: "Cairo", sans-serif;
+}
+.logo{
+    text-decoration: none;
+}
+.bayan-tab{
+    background-color: #fff;
+    border-radius: 1%;
+    box-shadow: 0px 3px 10px 4px #00000096;
+
+}
+.bayan-label {
+    align-items: center;
+    justify-content: center;
+
+}
+.bayan-label label{
+    padding-left: 10px;
+    font-size: 2rem;
+    font-family:Cairo, sans-serif;
+    color: white;
+}
+.bayan-label input{
+    padding-left: 10px;
+    border: none;
+    padding: 4px;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+}
+.bayan-label input:active{
+    border: none;
+    outline: var(--maincolor);
+}
+.bayan-label .serch{
+    padding-right: 10px;
+}
+.bayan-label .serch .button{
+    border-radius: 25px;
+}
+.bayan-label .serch .button svg{
+    padding-right: 2px;
+}
+.cairo-tab{
+    caption-side: top;
+}
+.cairo-tab caption{
+    color: black;
+    background-color: var(--maincolor);
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+    border:     1px solid black;
+    
+}
+
+tr,th,td{
+    border: 1px solid black;
+    padding: 1rem;
+    text-align: center;
+    font-weight: bold;
+
+}
+th{
+    background-color: var(--submaincolor);
+}

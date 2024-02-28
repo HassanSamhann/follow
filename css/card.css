@@ -19,18 +19,24 @@ color: white;
 
 .section3{
     display: flex;
+    background-color: #fff;
+    border-radius: 1%;
+    box-shadow: 0px 3px 10px 4px #00000096;
+    justify-content: space-evenly ; 
+    flex-wrap: wrap;
+
 }
 .card{
     height: 350px;
     width: 300px;
     background-color: #299af3;
     position: relative;
-    margin-right:60px;
-    margin-top: 10px;
     border-radius: 8px;
     -webkit-box-shadow: 20px 20px 22px rgba(0,0,0,0.2);
             box-shadow: 20px 20px 22px rgba(0,0,0,0.2);
     font-family: 'Poppins',sans-serif;
+    margin: 10px 0 ;
+
 }
 .card-img{
     height: 120px;
@@ -75,9 +81,6 @@ h6{
     letter-spacing: 1px;
     margin: 5px 0;
 }
-.card .button1{
-
-}
 .details{
     display: grid;
     width: 100%;
@@ -111,7 +114,7 @@ h6{
 }
 .card{
     transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
-
+    display: none;
 }
 .card:active {
     box-shadow: none;
@@ -129,3 +132,9 @@ h6{
     cursor: pointer;
     
   }
+select{
+    border-radius: 2px; 
+    width: 300px;
+    background-color: #5c6664;
+    color:white;
+}
