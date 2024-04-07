@@ -81,3 +81,33 @@ tr,th,td{
 th{
     background-color: var(--submaincolor);
 }
+/* start  btn for bayan month  */
+.btn-group button{
+    width: 210px;
+background-color: #03a9f4;
+color: #3c4043;
+font-family:  "Cairo", sans-serif;
+margin-right: 10px;
+font-size: large;
+
+
+}
+.btn-group .dropdown-menu{
+    background-color: #03a9f4;
+    text-align: center;
+    font-family:  "Cairo", sans-serif;
+}
+.btn-group .dropdown-menu .dropdown-item{
+    font-family:  "Cairo", sans-serif;
+    font-size: large;
+}
+
+.btn-group .dropdown-menu .dropdown-item:hover,:focus{
+    background-color: #2373b3;
+}
+/* .btn-group button:hover,:focus{
+    background-color: #03a9f4;
+    border: none;
+    color: #3c4043;
+} */
+/* end  btn for bayan month  */
